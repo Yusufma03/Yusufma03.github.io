@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Xiao Ma&#39;s Homepage</title>
+    <link>/authors/admin/</link>
+    <description>Recent content on Xiao Ma&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>I&amp;rsquo;m a second year PhD student at the School of Computing, National University of Singapore, under the supervision of Prof. David Hsu. I also work closely with Prof. Wee Sun Lee on my projects. My research mainly focuses on uncertainty modelling in sequential data, and its applications to time series prediction and robot decision making.
+Prior to NUS, I received my bachelor&amp;rsquo;s degree at the Shanghai Jiao Tong University, Shanghai, China, under the supervision of Prof.</description>
+    </item>
+    
+  </channel>
+</rss>
