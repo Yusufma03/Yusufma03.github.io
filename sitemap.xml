@@ -78,6 +78,17 @@
   </url>
   
   <url>
+    <loc>/teaching/cs3243/</loc>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/teaching/</loc>
+    <lastmod>2018-08-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/publication/ma-2017-beep/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
