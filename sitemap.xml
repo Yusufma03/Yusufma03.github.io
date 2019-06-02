@@ -78,7 +78,7 @@
   </url>
   
   <url>
-    <loc>/teaching/cs3243/</loc>
+    <loc>/teaching/cs6244/</loc>
     <lastmod>2018-08-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -86,6 +86,11 @@
     <loc>/teaching/</loc>
     <lastmod>2018-08-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/teaching/cs3243/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

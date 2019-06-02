@@ -31,11 +31,20 @@
     
     <item>
       <title>CS6244: Robot Motion Planning and Control</title>
-      <link>/teaching/cs3243/</link>
+      <link>/teaching/cs6244/</link>
       <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
       
+      <guid>/teaching/cs6244/</guid>
+      <description>Instructor: Prof. David Hsu</description>
+    </item>
+    
+    <item>
+      <title>CS3243: Introduction to Artificial Intelligence</title>
+      <link>/teaching/cs3243/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
       <guid>/teaching/cs3243/</guid>
-      <description></description>
+      <description>Instructor: Prof. Yair Zick</description>
     </item>
     
     <item>
