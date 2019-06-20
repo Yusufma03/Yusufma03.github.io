@@ -6,10 +6,19 @@
     <description>Recent content in [Xiaofeng Gao](https://scholar.google.com.sg/citations?hl=en&amp;user=mbGafk4AAAAJ) on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/xiaofeng-gaohttps/scholar.google.com.sg/citationshlenusermbgafk4aaaaj/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PF-LSTM: Belief State Particle Filter for LSTM</title>
+      <link>/publication/ma-2018-pflstm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ma-2018-pflstm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BEEP: a Bayesian perspective early stage event prediction model for online social networks</title>

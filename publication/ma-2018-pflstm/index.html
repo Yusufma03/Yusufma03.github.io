@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -29,10 +27,10 @@
   
     
   
-  <meta name="description" content="PhD in Computer Science">
+  <meta name="description" content="In this work, we explore the combination of Bayesian Filters and Recurrent Neural Networks by introducing the Particle Filter LSTM (PF-LSTM). PF-LSTM replaces the deterministic hidden state of LSTM by a random variable approximated by a set of hidden particles and introduces a stochastic cell update to simulate the stochastic dynamics of the particles. We argue that such Monte-Carlo approximation of the hidden distribution can improve the capability of LSTM on handling the data sequence with high uncertainty, e.g., noisy multi-modal distributions. Empirical experiments show that PF-LSTM is able to outperform the original LSTM in various of tasks.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/authors/">
+  <link rel="alternate" hreflang="en-us" href="/publication/ma-2018-pflstm/">
 
   
 
@@ -92,15 +90,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Xiao Ma&#39;s Homepage">
-  <link rel="feed" href="/authors/index.xml" type="application/rss+xml" title="Xiao Ma&#39;s Homepage">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/authors/">
+  <link rel="canonical" href="/publication/ma-2018-pflstm/">
 
   
   
@@ -112,19 +107,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Xiao Ma&#39;s Homepage">
-  <meta property="og:url" content="/authors/">
-  <meta property="og:title" content="Authors | Xiao Ma&#39;s Homepage">
-  <meta property="og:description" content="PhD in Computer Science"><meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:url" content="/publication/ma-2018-pflstm/">
+  <meta property="og:title" content="PF-LSTM: Belief State Particle Filter for LSTM | Xiao Ma&#39;s Homepage">
+  <meta property="og:description" content="In this work, we explore the combination of Bayesian Filters and Recurrent Neural Networks by introducing the Particle Filter LSTM (PF-LSTM). PF-LSTM replaces the deterministic hidden state of LSTM by a random variable approximated by a set of hidden particles and introduces a stochastic cell update to simulate the stochastic dynamics of the particles. We argue that such Monte-Carlo approximation of the hidden distribution can improve the capability of LSTM on handling the data sequence with high uncertainty, e.g., noisy multi-modal distributions. Empirical experiments show that PF-LSTM is able to outperform the original LSTM in various of tasks."><meta property="og:image" content="/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-05-29T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-05-31T08:36:27&#43;00:00">
+  
+  <meta property="article:modified_time" content="2018-01-01T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>Authors | Xiao Ma&#39;s Homepage</title>
+  <title>PF-LSTM: Belief State Particle Filter for LSTM | Xiao Ma&#39;s Homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -333,8 +330,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -351,69 +349,245 @@
 
   
   
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">PF-LSTM: Belief State Particle Filter for LSTM</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2018-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2018-01-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://scholar.google.com.sg/citations?user=hR4G6hoAAAAJ&amp;hl=en" target="_blank"><strong>Xiao Ma</strong></a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://scholar.google.com.sg/citations?hl=en&amp;user=mbGafk4AAAAJ" target="_blank">Xiaofeng Gao</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://scholar.google.com.sg/citations?user=rqZWbYgAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">Guihai Chen</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2018</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url="
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u="
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Authors</h1>
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/pflstm_neurips18.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/ma-2018-pflstm/ma-2018-pflstm.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">In this work, we explore the combination of Bayesian Filters and Recurrent Neural Networks by introducing the Particle Filter LSTM (PF-LSTM). PF-LSTM replaces the deterministic hidden state of LSTM by a random variable approximated by a set of hidden particles and introduces a stochastic cell update to simulate the stochastic dynamics of the particles. We argue that such Monte-Carlo approximation of the hidden distribution can improve the capability of LSTM on handling the data sequence with high uncertainty, e.g., noisy multi-modal distributions. Empirical experiments show that PF-LSTM is able to outperform the original LSTM in various of tasks.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9"><em>In RLPO Workshop, Advances in Neural Information Processing Systems (NeurIPS)</em>, 2017</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
   
 
-  <ul>
-    
-    
-      
-      <li><a href="/authors/xiao-mahttps/scholar.google.com.sg/citationsuserhr4g6hoaaaajhlen/">[**Xiao Ma**](https://scholar.google.com.sg/citations?user=hR4G6hoAAAAJ&amp;hl=en)</a></li>
-    
-      
-      <li><a href="/authors/david-hsuhttps/scholar.google.com.sg/citationsusers9lhlkeaaaajhlenoiao/">[David Hsu](https://scholar.google.com.sg/citations?user=S9LHLKEAAAAJ&amp;hl=en&amp;oi=ao)</a></li>
-    
-      
-      <li><a href="/authors/peter-karkushttps/scholar.google.com.sg/citationsusercjuid0yaaaajhlenoiao/">[Peter Karkus](https://scholar.google.com.sg/citations?user=cjUid0YAAAAJ&amp;hl=en&amp;oi=ao)</a></li>
-    
-      
-      <li><a href="/authors/wee-sun-leehttps/scholar.google.com.sg/citationsuser8pcrlgwaaaajhlenoiao/">[Wee Sun Lee](https://scholar.google.com.sg/citations?user=8PCrLgwAAAAJ&amp;hl=en&amp;oi=ao)</a></li>
-    
-      
-      <li><a href="/authors/leslie-pack-kaelblinghttps/scholar.google.com/citationsusericasiiwaaaajhlen/">[Leslie Pack Kaelbling](https://scholar.google.com/citations?user=IcasIiwAAAAJ&amp;hl=en)</a></li>
-    
-      
-      <li><a href="/authors/tomas-lozano-perezhttps/scholar.google.ca/citationsusergqokaggaaaajhlen/">[Tomas Lozano-Perez](https://scholar.google.ca/citations?user=gQOKAggAAAAJ&amp;hl=en)</a></li>
-    
-      
-      <li><a href="/authors/guihai-chenhttps/scholar.google.com.sg/citationsuserrqzwbygaaaajhlenoiao/">[Guihai Chen](https://scholar.google.com.sg/citations?user=rqZWbYgAAAAJ&amp;hl=en&amp;oi=ao)</a></li>
-    
-      
-      <li><a href="/authors/xiaofeng-gaohttps/scholar.google.com.sg/citationshlenusermbgafk4aaaaj/">[Xiaofeng Gao](https://scholar.google.com.sg/citations?hl=en&amp;user=mbGafk4AAAAJ)</a></li>
-    
-      
-      <li><a href="/authors/fan-wuhttp/www.cs.sjtu.edu.cn/~fwu/">[Fan Wu](http://www.cs.sjtu.edu.cn/~fwu/)</a></li>
-    
-      
-      <li><a href="/authors/zhenzhe-zhenghttps/scholar.google.com.sg/citationsuserkx_5xxeaaaajhlenoiao/">[Zhenzhe Zheng](https://scholar.google.com.sg/citations?user=kx_5xxEAAAAJ&amp;hl=en&amp;oi=ao)</a></li>
-    
-  </ul>
-
-  
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
 
 
+
+
+
+
+
+  </div>
 </div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   

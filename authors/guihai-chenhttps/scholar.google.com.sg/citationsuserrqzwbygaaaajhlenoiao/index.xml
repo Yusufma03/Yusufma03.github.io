@@ -6,10 +6,19 @@
     <description>Recent content in [Guihai Chen](https://scholar.google.com.sg/citations?user=rqZWbYgAAAAJ&amp;hl=en&amp;oi=ao) on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/authors/guihai-chenhttps/scholar.google.com.sg/citationsuserrqzwbygaaaajhlenoiao/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PF-LSTM: Belief State Particle Filter for LSTM</title>
+      <link>/publication/ma-2018-pflstm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ma-2018-pflstm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>BEEP: a Bayesian perspective early stage event prediction model for online social networks</title>
