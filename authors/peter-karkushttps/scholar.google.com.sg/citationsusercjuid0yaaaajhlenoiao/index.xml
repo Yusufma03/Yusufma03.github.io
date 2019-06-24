@@ -29,5 +29,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>PF-LSTM: Belief State Particle Filter for LSTM</title>
+      <link>/publication/ma-2018-pflstm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ma-2018-pflstm/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
