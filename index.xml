@@ -12,20 +12,67 @@
     
     
     <item>
-      <title>Publications</title>
-      <link>/publication/</link>
+      <title>Particle Filter Recurrent Neural Networks</title>
+      <link>/publication/1905-12885/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>/publication/</guid>
+      <guid>/publication/1905-12885/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Teachings</title>
-      <link>/teaching/</link>
+      <title>Differentiable Algorithm Networks for Composable Robot Learning</title>
+      <link>/publication/1905-11602/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/1905-11602/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CS6244: Robot Motion Planning and Control</title>
+      <link>/teaching/cs6244/</link>
       <pubDate>Sun, 12 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/teaching/</guid>
+      <guid>/teaching/cs6244/</guid>
+      <description>&lt;p&gt;Instructor: Prof. David Hsu&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CS3243: Introduction to Artificial Intelligence</title>
+      <link>/teaching/cs3243/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/cs3243/</guid>
+      <description>&lt;p&gt;Instructor: Prof. Yair Zick&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PF-LSTM: Belief State Particle Filter for LSTM</title>
+      <link>/publication/ma-2018-pflstm/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ma-2018-pflstm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BEEP: a Bayesian perspective early stage event prediction model for online social networks</title>
+      <link>/publication/ma-2017-beep/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ma-2017-beep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trust-based time series data model for mobile crowdsensing</title>
+      <link>/publication/ma-2017-trust/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/ma-2017-trust/</guid>
       <description></description>
     </item>
     
