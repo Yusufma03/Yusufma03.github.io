@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Xiao Ma&#39;s Homepage</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2019 11:33:59 +0800</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>[**Xiao Ma**](https://scholar.google.com.sg/citations?user=hR4G6hoAAAAJ&amp;hl=en)</title>
       <link>/authors/xiao-mahttps/scholar.google.com.sg/citationsuserhr4g6hoaaaajhlen/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2019 11:33:59 +0800</pubDate>
       
       <guid>/authors/xiao-mahttps/scholar.google.com.sg/citationsuserhr4g6hoaaaajhlen/</guid>
       <description></description>
@@ -23,16 +23,25 @@
     <item>
       <title>[David Hsu](https://scholar.google.com.sg/citations?user=S9LHLKEAAAAJ&amp;hl=en&amp;oi=ao)</title>
       <link>/authors/david-hsuhttps/scholar.google.com.sg/citationsusers9lhlkeaaaajhlenoiao/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2019 11:33:59 +0800</pubDate>
       
       <guid>/authors/david-hsuhttps/scholar.google.com.sg/citationsusers9lhlkeaaaajhlenoiao/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>[Nan Ye](https://scholar.google.com.sg/citations?user=5XCxGRIAAAAJ&amp;hl=en)</title>
+      <link>/authors/nan-yehttps/scholar.google.com.sg/citationsuser5xcxgriaaaajhlen/</link>
+      <pubDate>Fri, 20 Dec 2019 11:33:59 +0800</pubDate>
+      
+      <guid>/authors/nan-yehttps/scholar.google.com.sg/citationsuser5xcxgriaaaajhlen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>[Peter Karkus](https://scholar.google.com.sg/citations?user=cjUid0YAAAAJ&amp;hl=en&amp;oi=ao)</title>
       <link>/authors/peter-karkushttps/scholar.google.com.sg/citationsusercjuid0yaaaajhlenoiao/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2019 11:33:59 +0800</pubDate>
       
       <guid>/authors/peter-karkushttps/scholar.google.com.sg/citationsusercjuid0yaaaajhlenoiao/</guid>
       <description></description>
@@ -41,7 +50,7 @@
     <item>
       <title>[Wee Sun Lee](https://scholar.google.com.sg/citations?user=8PCrLgwAAAAJ&amp;hl=en&amp;oi=ao)</title>
       <link>/authors/wee-sun-leehttps/scholar.google.com.sg/citationsuser8pcrlgwaaaajhlenoiao/</link>
-      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Dec 2019 11:33:59 +0800</pubDate>
       
       <guid>/authors/wee-sun-leehttps/scholar.google.com.sg/citationsuser8pcrlgwaaaajhlenoiao/</guid>
       <description></description>
@@ -107,8 +116,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/authors/admin/</guid>
-      <description>I&amp;rsquo;m a third year PhD student at the School of Computing, National University of Singapore, under the supervision of Prof. David Hsu. I also work closely with Prof. Wee Sun Lee on my projects. My research mainly focuses on uncertainty modelling in sequential data, and its applications to sequence prediction and robot decision making.
-Prior to NUS, I received my bachelor&amp;rsquo;s degree from Shanghai Jiao Tong University, Shanghai, China, under the supervision of Prof.</description>
+      <description>I&#39;m a third year PhD student at the School of Computing, National University of Singapore, under the supervision of Prof. David Hsu. I also work closely with Prof. Wee Sun Lee on my projects. My research mainly focuses on uncertainty modelling in sequential data, and its applications to sequence prediction and robot decision making.
+Prior to NUS, I received my bachelor&#39;s degree from Shanghai Jiao Tong University, Shanghai, China, under the supervision of Prof.</description>
     </item>
     
   </channel>
