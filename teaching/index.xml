@@ -6,10 +6,19 @@
     <description>Recent content in Teachings on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CS5478: Introduction to Robotics</title>
+      <link>/teaching/cs5478/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/cs5478/</guid>
+      <description>Instructor: Prof. David Hsu</description>
+    </item>
     
     <item>
       <title>CS6244: Robot Motion Planning and Control</title>
