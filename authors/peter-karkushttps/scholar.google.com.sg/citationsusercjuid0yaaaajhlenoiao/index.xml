@@ -6,46 +6,9 @@
     <description>Recent content in [Peter Karkus](https://scholar.google.com.sg/citations?user=cjUid0YAAAAJ&amp;hl=en&amp;oi=ao) on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 21 Jan 2020 11:33:59 +0800</lastBuildDate>
     
 	<atom:link href="/authors/peter-karkushttps/scholar.google.com.sg/citationsusercjuid0yaaaajhlenoiao/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Discriminative Particle Filter Reinforcement Learning for Complex Partial Observations</title>
-      <link>/publication/ma-2020-discriminative/</link>
-      <pubDate>Tue, 21 Jan 2020 11:33:59 +0800</pubDate>
-      
-      <guid>/publication/ma-2020-discriminative/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Particle Filter Recurrent Neural Networks</title>
-      <link>/publication/1905-12885/</link>
-      <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/1905-12885/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Differentiable Algorithm Networks for Composable Robot Learning</title>
-      <link>/publication/1905-11602/</link>
-      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/1905-11602/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PF-LSTM: Belief State Particle Filter for LSTM</title>
-      <link>/publication/ma-2018-pflstm/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/ma-2018-pflstm/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
