@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 on Xiao Ma&#39;s Homepage</title>
+    <link>/publication_types/3/</link>
+    <description>Recent content in 3 on Xiao Ma&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 May 2020 21:51:43 +0800</lastBuildDate>
+    
+	<atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spatio-Temporal Graph Transformer Networks for Pedestrian Trajectory Prediction</title>
+      <link>/publication/yu2020graph/</link>
+      <pubDate>Wed, 20 May 2020 21:51:43 +0800</pubDate>
+      
+      <guid>/publication/yu2020graph/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
