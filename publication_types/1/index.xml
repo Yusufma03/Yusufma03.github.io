@@ -6,10 +6,19 @@
     <description>Recent content in 1 on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 11:33:59 +0800</lastBuildDate>
     
 	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DinerDash Gym: A Benchmark for Policy Learning in High-Dimensional Action Space</title>
+      <link>/publication/chen-2020-dinerdash/</link>
+      <pubDate>Sun, 19 Jul 2020 11:33:59 +0800</pubDate>
+      
+      <guid>/publication/chen-2020-dinerdash/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CS5478: Introduction to Robotics</title>
