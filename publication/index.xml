@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2020 11:33:59 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 21:51:43 +0800</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Balanced Meta-Softmax for Long-Tailed Visual Recognition</title>
+      <link>/publication/ren2020balanced/</link>
+      <pubDate>Thu, 30 Jul 2020 21:51:43 +0800</pubDate>
+      
+      <guid>/publication/ren2020balanced/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DinerDash Gym: A Benchmark for Policy Learning in High-Dimensional Action Space</title>
