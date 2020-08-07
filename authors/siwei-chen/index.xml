@@ -6,10 +6,19 @@
     <description>Recent content in Siwei Chen on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jul 2020 11:33:59 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 21:51:43 +0800</lastBuildDate>
     
 	<atom:link href="/authors/siwei-chen/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contrastive Variational Model-Based Reinforcement Learning for Complex Observations</title>
+      <link>/publication/ma2020contrastive/</link>
+      <pubDate>Thu, 06 Aug 2020 21:51:43 +0800</pubDate>
+      
+      <guid>/publication/ma2020contrastive/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DinerDash Gym: A Benchmark for Policy Learning in High-Dimensional Action Space</title>

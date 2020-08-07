@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Jul 2020 21:51:43 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2020 21:51:43 +0800</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Contrastive Variational Model-Based Reinforcement Learning for Complex Observations</title>
+      <link>/publication/ma2020contrastive/</link>
+      <pubDate>Thu, 06 Aug 2020 21:51:43 +0800</pubDate>
+      
+      <guid>/publication/ma2020contrastive/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Balanced Meta-Softmax for Long-Tailed Visual Recognition</title>
