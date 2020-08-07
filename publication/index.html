@@ -583,6 +583,10 @@
   </h3>
 
   
+  <div class="article-style" itemprop="articleBody">
+    Deep model-based reinforcement learning (MBRL) has achieved great sample-efficiency and generalization in decision making for sophisticated simulated tasks, such as Atari games. However, real-world robot decision making requires reasoning with complex natural visual observations. This paper presents Contrastive Variational Reinforcement Learning (CVRL), an MBRL framework for complex natural observations. In contrast to the commonly used generative world models, CVRL learns a contrastive variational world model by maximizing the mutual information between latent states and observations discriminatively by contrastive learning. Contrastive learning avoids modeling the complex observation space and is significantly more robust than the standard generative world models. For decision making, CVRL discovers long-horizon behavior by online search guided by an actor-critic. CVRL achieves comparable performance with the state-of-the-art (SOTA) generative MBRL approaches on a series of Mujoco tasks, and significantly outperforms SOTAs on Natural Mujoco tasks, a new, more challenging continuous control RL benchmark with complex observations introduced in this paper.
+  </div>
+  
 
   
   <div class="btn-links">
@@ -732,6 +736,10 @@
   </h3>
 
   
+  <div class="article-style" itemprop="articleBody">
+    Deep classifiers have achieved great success in visual recognition. However, real-world data is long-tailed by nature, leading to the mismatch between training and testing distributions. In this paper, we show that Softmax function, though used in most classification tasks, gives a biased gradient estimation under the long-tailed setup. This paper presents Balanced Softmax, an elegant unbiased extension of Softmax, to accommodate the label distribution shift between training and testing. Theoretically, we derive the generalization bound for multiclass Softmax regression and show our loss minimizes the bound. In addition, we introduce Balanced Meta-Softmax, applying a complementary Meta Sampler to estimate the optimal class sample rate and further improve long-tailed learning. In our experiments, we demonstrate that Balanced Meta-Softmax outperforms state-of-the-art long-tailed classification solutions on both visual recognition and instance segmentation tasks.
+  </div>
+  
 
   
   <div class="btn-links">
@@ -878,7 +886,7 @@
 
   
   <div class="article-style" itemprop="articleBody">
-    Deep reinforcement learning has succeeded in sophisticated games such as Atari, Go, etc. Real-world decision making, however, often requires reasoning with partial information extracted from complex visual observations. This paper presents  Discriminative Particle Filter Reinforcement Learning (DPFRL), a new reinforcement learning framework for partial and complex observations. DPFRL encodes a differentiable particle filter with learned transition and observation models in a neural network, which allows for reasoning with partial observations over multiple time steps. While a standard particle filter relies on a generative observation model, DPFRL learns a discriminatively parameterized model that is training directly for decision making. We show that the discriminative parameterization results in significantly improved performance, especially for tasks with complex visual observations, because it circumvents the difficulty of modelling observations explicitly. In most cases, DPFRL outperforms state-of-the-art POMDP RL models in Flickering Atari Games, an existing POMDP RL benchmark, and in Natural Flickering Atari Games, a new, more challenging POMDP RL benchmark that we introduce. We further show that DPFRL performs well for visual navigation with real-world data.
+    It has been arduous to assess the progress of a policy learning algorithm in the domain of hierarchical task with high dimensional action space due to the lack of a commonly accepted benchmark. In this work, we propose a new light-weight benchmark task called Diner Dash for evaluating the performance in a complicated task with high dimensional action space. In contrast to the traditional Atari games that only have a flat structure of goals and very few actions, the proposed benchmark task has a hierarchical task structure and size of 57 for the action space and hence can facilitate the development of policy learning in complicated tasks. On top of that, we introduce Decomposed Policy Graph Modelling (DPGM), an algorithm that combines both graph modelling and deep learning to allow explicit domain knowledge embedding and achieves significant improvement comparing to the baseline. In the experiments, we have shown the effectiveness of the domain knowledge injection via a specially designed imitation algorithm as well as results of other popular algorithms.
   </div>
   
 
@@ -1034,6 +1042,10 @@
   </h3>
 
   
+  <div class="article-style" itemprop="articleBody">
+    Understanding crowd motion dynamics is critical to real-world applications, e.g., surveillance systems and autonomous driving. This is challenging because it requires effectively modeling the socially aware crowd spatial interaction and complex temporal dependencies. We believe attention is the most important factor for trajectory prediction. In this paper, we present STAR, a Spatio-Temporal grAph tRansformer framework, which tackles trajectory prediction by only attention mechanisms. STAR models intra-graph crowd interaction by TGConv, a novel Transformer-based graph convolution mechanism. The inter-graph temporal dependencies are modeled by separate temporal Transformers. STAR captures complex spatio-temporal interactions by interleaving between spatial and temporal Transformers. To calibrate the temporal prediction for the long-lasting effect of disappeared pedestrians, we introduce a read-writable external memory module, consistently being updated by the temporal Transformer. We show that with only attention mechanism, STAR achieves state-of-the-art performance on 5 commonly used real-world pedestrian prediction datasets.
+  </div>
+  
 
   
   <div class="btn-links">
@@ -1186,6 +1198,10 @@
     <a href="/publication/zheng-2020-predicting/" itemprop="url">Predicting Hot Events in the Early Period through Bayesian Model for Social Networks</a>
   </h3>
 
+  
+  <div class="article-style" itemprop="articleBody">
+    Predicting emerging hot events in an early stage is essential for various applications, including information dissemination mining, ads recommendation and etc. Existing techniques either require a long-term observation over the event or features that are expensive to extract. However, given limited data at the early stage of an emerging event, the temporal features of hot events and non-hot events are not distinctive enough yet. In this work, we introduce BEEP, a Bayesian perspective Early stage Event Prediction model, that tackles this dilemma. We formulate the hot event prediction problem by two Semi-Naive Bayes Classifiers, where we consider both the temporal features and structural features and perform distribution test for the selected features. Theoretical analysis and extensive empirical evaluations on two real datasets demonstrate the effectiveness of our methods.
+  </div>
   
 
   
