@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jiashu Tao on Xiao Ma&#39;s Homepage</title>
+    <link>/authors/jiashu-tao/</link>
+    <description>Recent content in Jiashu Tao on Xiao Ma&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Dec 2020 21:51:43 +0800</lastBuildDate>
+    
+	<atom:link href="/authors/jiashu-tao/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Towards Overcoming False Positives in Visual Relationship Detection</title>
+      <link>/publication/jin2020towards/</link>
+      <pubDate>Thu, 24 Dec 2020 21:51:43 +0800</pubDate>
+      
+      <guid>/publication/jin2020towards/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
