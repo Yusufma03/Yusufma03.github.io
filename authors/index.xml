@@ -6,10 +6,19 @@
     <description>Recent content in Authors on Xiao Ma&#39;s Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 21:51:43 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 19 May 2021 11:33:59 +0800</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Siwei Chen</title>
+      <link>/authors/siwei-chen/</link>
+      <pubDate>Wed, 19 May 2021 11:33:59 +0800</pubDate>
+      
+      <guid>/authors/siwei-chen/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Chongzhi Zhang*</title>
@@ -44,15 +53,6 @@
       <pubDate>Thu, 24 Dec 2020 21:51:43 +0800</pubDate>
       
       <guid>/authors/yizhuo-zhou/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Siwei Chen</title>
-      <link>/authors/siwei-chen/</link>
-      <pubDate>Thu, 06 Aug 2020 21:51:43 +0800</pubDate>
-      
-      <guid>/authors/siwei-chen/</guid>
       <description></description>
     </item>
     
