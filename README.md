@@ -1,5 +1,1 @@
-# Academic Website of Xiao Ma
-
-Hi there! I'm Xiao Ma, a PhD candidate at School of Computing, National University of Singapore.
-
-The website is built by the Academic theme for Hugo.
+This is the source code to Jon Barron's public academic website: https://jonbarron.info/. You are welcome to clone this code for your own personal use, just please attribute the source to the original website or to this repo. If you do clone this website, feel free to add an attribution link to your own downstream website in index.html if you want.
