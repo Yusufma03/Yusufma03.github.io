@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Hierarchical Diffusion Policy">
+  <meta name="keywords" content="HDP, Diffusion Policy">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hierarchical Diffusion Policy for Multi-Task Robotic Manipulation</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://keunhong.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://hypernerf.github.io">
+            HyperNeRF
+          </a>
+          <a class="navbar-item" href="https://nerfies.github.io">
+            Nerfies
+          </a>
+          <a class="navbar-item" href="https://latentfusion.github.io">
+            LatentFusion
+          </a>
+          <a class="navbar-item" href="https://photoshape.github.io">
+            PhotoShape
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav> -->
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://yusufma03.github.io/">Xiao Ma</a>,</span>
+            <span class="author-block">
+              <a href="https://rocketsumit.github.io/">Sumit Patidar</a>,</span>
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/iain-haughton-194321135/?originalSubdomain=uk">Iain Haughton</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://stepjam.github.io/">Stephen James</a>
+            </span>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Dyson Robot Learning Lab</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/hdp.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+<h2 class="subtitle has-text-centered">
+</br>
+<p>Hierarchical Diffusion Policy (HDP) factorises the policy space into a 1) high-level task-planning agent and 2) low-level goal-conditioned diffusion policy,</p>
+<p>which achieves both task-level generalisation and flexible low-level control.</p>
+</h2>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            This paper introduces Hierarchical Diffusion Policy (HDP), a hierarchical agent for multi-task robotic manipulation.
+          </p>
+          <p>
+            HDP factorises a manipulation policy into a hierarchical structure: a high-level task-planning agent which predicts a distant next-best end-effector pose (NBP), and a low-level goal-conditioned diffusion policy which generates optimal motion trajectories. The factorised policy representation allows HDP to tackle both long-horizon task planning while generating fine-grained low-level actions. To generate context-aware motion trajectories while satisfying robot kinematics constraints, we present a novel kinematics-aware goal-conditioned control agent, Robot Kinematics Diffuser (RK-Diffuser). Specifically, RK-Diffuser learns to generate both the end-effector pose and joint position trajectories, and distill the accurate but kinematics-unaware end-effector pose diffuser to the kinematics-aware but less accurate joint position diffuser via differentiable kinematics.
+          </p>
+          <p>
+          Empirically, we show that HDP achieves a significantly higher success rate than the state-of-the-art methods in both simulation and real-world.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-widescreen">
+
+    <div class="rows">
+
+
+    <!-- Animation. -->
+    <div class="rows is-centered ">
+      <div class="row is-full-width">
+        <h2 class="title is-3">Hierarchical Diffusion Policy</h2>
+
+        <div class="content has-text-justified">
+        <!-- <br> -->
+        </div>
+        <img src="static/images/overview.png" class="interpolation-image" 
+         alt="Interpolate start reference image." />
+        </br>
+        </br>
+          <p>
+              Overview of Hierarchical Diffusion Policy (HDP). HDP is a multi-task hierarchical agent for kinematics-aware robotic manipulation. HDP consists of two levels: a high-level language-guided agent and a low-level goal-conditioned diffusion policy. From left to right, the high-level agent takes in 3D environment observations and language instructions, then predicts the next-best end-effector pose. This pose guides the low-level RK-Diffuser. The RK-Diffuser subsequently generates a continuous joint-position trajectory by conditional sampling and trajectory inpainting given the next-best pose and environment observations. To generate kinematics-aware trajectories, RK-Diffuser distills the accurate but less flexible end-effector pose trajectories into joint position space via differentiable robot kinematics.
+          </p>
+        </br>
+
+        <!--/ Re-rendering. -->
+
+        <h2 class="title is-3">Results</h2>
+
+        <h3 class="title is-4">Simulation Results</h3>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/sim.mp4"
+                type="video/mp4">
+        </video>
+
+        <h3 class="title is-4">Diffusion Processes Visualizations</h3>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/diffusion_processes_all.mp4"
+                type="video/mp4">
+        </video>
+<!-- 
+        <h3 class="title is-4">Real-Robot Experiments</h3>
+        <h4 class=""title is-4>Opening Oven</h4>
+        <video id="teaser" controls muted loop playsinline height="100%">
+        <source src="./static/videos/oven.mp4"
+                type="video/mp4">
+        </video>
+
+        <h4 class=""title is-4>Sorting Objects into Drawer</h4>
+        <video id="teaser" controls muted loop playsinline height="100%">
+        <source src="./static/videos/drawer.mp4"
+                type="video/mp4">
+        </video> -->
+
+
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <h2 class="title is-3">Open Oven</h2>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/oven.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h2 class="title is-3">Sorting Objects into Drawer</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/drawer.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+ 
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-widescreen">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{ma2024hierarchical,
+  author    = {Ma, Xiao and Patidar, Sumit and Haughton, Iain and James, Stephen},
+  title     = {Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation},
+  journal   = {CVPR},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Template borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
