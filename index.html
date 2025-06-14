@@ -398,5 +398,37 @@
                 </div>
                 </div>
                 </div>
+<!-- // ... existing code ... -->
+<script>
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  // Back to top button
+  let backToTopButton = document.createElement('button');
+  backToTopButton.innerText = '↑';
+  backToTopButton.id = 'backToTop';
+  document.body.appendChild(backToTopButton);
+
+  window.onscroll = function() {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  };
+
+  backToTopButton.addEventListener('click', function(){
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  });
+
+</script>
 </body>
 </html>
