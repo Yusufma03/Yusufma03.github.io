@@ -265,6 +265,14 @@ a:hover {
     font-size: 1rem;
   }
 
+  .contact-info .email-display {
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .publication {
     flex-direction: column;
     padding: 1rem;
