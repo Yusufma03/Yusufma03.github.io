@@ -152,6 +152,44 @@ a:hover {
   border-left: 3px solid var(--secondary-color);
 }
 
+.news-more {
+  margin-top: 0.25rem;
+}
+
+.news-more > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+  font-weight: 500;
+  user-select: none;
+}
+
+.news-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-more > summary::before {
+  content: "▸";
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.news-more[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.news-more > summary:hover {
+  text-decoration: underline;
+}
+
+.news-more > summary:focus-visible {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 /* Publications */
 .publications {
   display: grid;
