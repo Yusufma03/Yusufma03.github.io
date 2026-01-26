@@ -21,11 +21,13 @@ html {
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
-  line-height: 1.3;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
   color: var(--text-color);
   background-color: #fff;
   padding: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -55,10 +57,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .papertitle {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--secondary-color);
-  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
 }
 
 /* Links */
@@ -147,9 +150,14 @@ a:hover {
 
 /* News */
 .news-item {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   padding-left: 1rem;
   border-left: 3px solid var(--secondary-color);
+  transition: border-left-color 0.3s ease;
+}
+
+.news-item:hover {
+  border-left-color: var(--accent-color);
 }
 
 .news-more {
@@ -256,12 +264,7 @@ a:hover {
   width: 100%;
   height: auto;
   border-radius: 4px;
-  display: none;
   object-fit: cover;
-}
-
-.publication:hover .publication-image video {
-  display: block;
 }
 
 .publication-content {
@@ -290,6 +293,11 @@ a:hover {
   .header {
     flex-direction: column;
     text-align: center;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .container {
     padding: 0 1rem;
   }
 
@@ -301,6 +309,8 @@ a:hover {
   .contact-info a {
     padding: 0.5rem 0.8rem;
     font-size: 1rem;
+    background-color: var(--light-gray); /* Add touch target background */
+    border-radius: 4px;
   }
 
   .contact-info .email-display {
@@ -309,60 +319,75 @@ a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--light-gray);
+    border-radius: 4px;
   }
 
   .publication {
     flex-direction: column;
-    padding: 1rem;
-    margin: 0 -0.5rem;
+    padding: 1.25rem;
+    margin: 0;
   }
 
   .publication-image {
-    margin: 0 auto 1rem;
-    flex: 0 0 140px;
+    margin: 0 auto 1.25rem;
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 400px;
   }
 
   .publication-content {
-    padding: 0 0.5rem;
+    padding: 0;
+    text-align: left;
+    width: 100%;
   }
 
   .publication:hover {
     transform: none;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
 }
 
 @media (max-width: 480px) {
   body {
-    padding: 8px;
+    padding: 0;
     font-size: 15px;
   }
 
   .container {
-    padding: 0 8px;
+    padding: 1rem;
   }
 
   .name {
-    font-size: 1.8rem;
+    font-size: 2rem;
     line-height: 1.2;
   }
 
   .heading {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding-bottom: 0.3rem;
+    margin-top: 2rem;
   }
 
   .papertitle {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .publication-links {
     gap: 0.8rem;
     font-size: 0.9rem;
+    margin-top: 0.8rem;
+  }
+  
+  .publication-links a {
+    display: inline-block;
+    padding: 4px 8px;
+    background: var(--light-gray);
+    border-radius: 4px;
   }
 
   .publication-image {
-    flex: 0 0 120px;
+    margin-bottom: 1rem;
   }
 
   /* Disable hover animations on mobile */
