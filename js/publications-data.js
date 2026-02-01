@@ -25,7 +25,7 @@ const publicationsData = [
   },
   {
     "title": "ByteWrist: A Parallel Robotic Wrist Enabling Flexible and Anthropomorphic Motion for Confined Spaces",
-    "venue": "Technical Report, 2025",
+    "venue": "International Conference on Robotics and Automation (ICRA), 2026",
     "authors": [
       { "name": "Jiawen Tian" },
       { "name": "Liqun Huang" },

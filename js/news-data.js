@@ -1,5 +1,10 @@
 const newsData = [
   {
+    "date": "Feb. 2025",
+    "content": "1 paper accepted to ICRA 2026.",
+    "isMore": false
+  },
+  {
     "date": "Jan. 2025",
     "content": "1 paper accepted to ICLR 2026.",
     "isMore": false
