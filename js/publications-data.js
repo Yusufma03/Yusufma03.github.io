@@ -5,7 +5,7 @@ const publicationsData = [
     "authors": [
       { "name": "Seed GR Team" }
     ],
-    "image": "data/wen2025dexter/dexter.gif",
+    "video": "data/wen2025dexter/dexter.mp4",
     "links": [
       { "label": "project page", "url": "https://byte-dexter.github.io/gr-dexter/" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2512.24210" }
@@ -17,7 +17,7 @@ const publicationsData = [
     "authors": [
       { "name": "Seed GR Team" }
     ],
-    "image": "data/li2025grrl/gr_rl.gif",
+    "video": "data/li2025grrl/gr_rl.mp4",
     "links": [
       { "label": "project page", "url": "https://seed.bytedance.com/en/gr_rl" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2512.01801" }
@@ -35,7 +35,7 @@ const publicationsData = [
       { "name": "Xiao Ma", "isMe": true },
       { "name": "Zeyu Ren", "url": "https://scholar.google.com/citations?user=-covmygAAAAJ&hl=en" }
     ],
-    "image": "data/tian2025bytewrist/bytewrist.gif",
+    "video": "data/tian2025bytewrist/bytewrist.mp4",
     "links": [
       { "label": "project page", "url": "https://bytewrist.github.io/" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2509.18084" }
@@ -47,7 +47,7 @@ const publicationsData = [
     "authors": [
       { "name": "Seed GR Team" }
     ],
-    "image": "data/cheang2025gr3/gr3.gif",
+    "video": "data/cheang2025gr3/gr3.mp4",
     "links": [
       { "label": "project page", "url": "https://seed.bytedance.com/GR3" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2507.15493" }
@@ -89,7 +89,7 @@ const publicationsData = [
       { "name": "Stephen James", "url": "https://stepjam.github.io/" }
     ],
     "note": "(*equal contributions)",
-    "image": "data/chernyadev2024bigym/bigym.gif",
+    "video": "data/chernyadev2024bigym/bigym.mp4",
     "links": [
       { "label": "project page", "url": "https://chernyadev.github.io/bigym/" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2407.07788" },
@@ -106,7 +106,7 @@ const publicationsData = [
       { "name": "Stephen James", "url": "https://stepjam.github.io/", "isEqual": true }
     ],
     "note": "(*equal contributions)",
-    "image": "data/mazzaglia2024redundancy/erj.gif",
+    "video": "data/mazzaglia2024redundancy/erj.mp4",
     "links": [
       { "label": "project page", "url": "https://redundancy-actions.github.io/" },
       { "label": "pdf", "url": "https://arxiv.org/pdf/2406.04144" },
@@ -122,7 +122,7 @@ const publicationsData = [
       { "name": "Iain Haughton", "url": "https://www.linkedin.com/in/iain-haughton-194321135/?originalSubdomain=uk" },
       { "name": "Stephen James", "url": "https://stepjam.github.io/" }
     ],
-    "image": "data/ma2024hierarchical/hdp.gif",
+    "video": "data/ma2024hierarchical/hdp.mp4",
     "links": [
       { "label": "project page", "url": "https://yusufma03.github.io/projects/hdp/" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2403.03890" },
@@ -140,7 +140,7 @@ const publicationsData = [
       { "name": "Liang Pan", "url": "https://scholar.google.com/citations?user=lSDISOcAAAAJ&hl=zh-CN" },
       { "name": "Ziwei Liu", "url": "https://scholar.google.com/citations?user=lc45xlcAAAAJ&hl=zh-CN" }
     ],
-    "image": "data/ren2023insactor/insactor.gif",
+    "video": "data/ren2023insactor/insactor.mp4",
     "links": [
       { "label": "project page", "url": "https://jiawei-ren.github.io/projects/insactor/" },
       { "label": "pdf", "url": "https://arxiv.org/abs/2312.17135" },
@@ -190,7 +190,7 @@ const publicationsData = [
       { "name": "Xiao Ma", "isMe": true },
       { "name": "Zhongwen Xu", "url": "https://zhongwen.one/" }
     ],
-    "image": "data/chen2023ild/ild.gif",
+    "video": "data/chen2023ild/ild.mp4",
     "links": [
       { "label": "pdf", "url": "https://arxiv.org/abs/2206.04873" },
       { "label": "code", "url": "https://github.com/sail-sg/ILD" },
@@ -211,7 +211,7 @@ const publicationsData = [
       { "name": "David Hsu", "url": "https://www.comp.nus.edu.sg/~dyhsu/" }
     ],
     "note": "(*equal contributions)",
-    "image": "data/chen2023dax/daxbench.gif",
+    "video": "data/chen2023dax/daxbench.mp4",
     "links": [
       { "label": "pdf", "url": "https://arxiv.org/pdf/2210.13066.pdf" },
       { "label": "bibtex", "url": "data/chen2023dax/chen2023dax.bib" }

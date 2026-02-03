@@ -74,40 +74,35 @@ function loadPublications() {
             const imgDiv = document.createElement('div');
             imgDiv.className = 'publication-image';
             
-            // Check if video exists (assuming .mp4 replaces .gif)
-            const videoPath = pub.image.replace('.gif', '.mp4');
-            
-            if (pub.image.endsWith('.gif')) {
+            const isVideo = (pub.video && typeof pub.video === 'string')
+                || (pub.image && pub.image.endsWith('.mp4'));
+
+            if (isVideo) {
                 const video = document.createElement('video');
                 video.autoplay = true;
                 video.loop = true;
                 video.muted = true;
                 video.playsInline = true;
                 video.preload = "auto";
-                video.poster = pub.image; // Use GIF as poster
-                
+
+                if (pub.poster && typeof pub.poster === 'string') {
+                    video.poster = pub.poster;
+                } else if (pub.image && !pub.image.endsWith('.mp4') && !pub.image.endsWith('.gif')) {
+                    video.poster = pub.image;
+                }
+
                 const source = document.createElement('source');
-                source.src = videoPath;
+                source.src = pub.video ? pub.video : pub.image;
                 source.type = "video/mp4";
                 video.appendChild(source);
-                
-                // Fallback image
-                const img = document.createElement('img');
-                img.src = pub.image;
-                img.alt = pub.title;
-                video.appendChild(img);
 
                 imgDiv.appendChild(video);
-                
-                // Explicitly trigger play to ensure autoplay works
-                // Some browsers require this even with autoplay attribute
-                video.play().catch(e => {
-                    console.log("Autoplay prevented:", e);
-                    // If autoplay fails, we show controls or fallback
-                    // But usually muted autoplay is allowed
-                });
-            } else {
+
+                video.play().catch(() => {});
+            } else if (pub.image) {
                 imgDiv.innerHTML = `<img src="${pub.image}" alt="${pub.title}">`;
+            } else {
+                imgDiv.textContent = 'Media unavailable';
             }
 
             // Content Section
