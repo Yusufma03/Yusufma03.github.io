@@ -24,7 +24,7 @@
     <div class="header">
       <div class="profile-info">
         <h1 class="name">Xiao Ma</h1>
-        <p>I am a staff research scientist at <span style="font-weight: bold; color: rgb(7, 92, 172);">ByteDance
+        <p>I am a senior staff research scientist at <span style="font-weight: bold; color: rgb(7, 92, 172);">ByteDance
             Seed</span>, where I lead the Seed GR robotic foundation model team. Prior to that, I pursued my
           PhD at National University of Singapore, advised by <a href="https://www.comp.nus.edu.sg/~dyhsu/">Prof. David
             Hsu</a>.
@@ -71,93 +71,93 @@
         <div class="loading">Loading publications...</div>
       </div>
     </div>
-        <!-- // ... existing code ... -->
-        <script>
-          // Smooth scroll for anchor links
-          document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-              e.preventDefault();
-              document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-              });
-            });
+    <!-- // ... existing code ... -->
+    <script>
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
           });
+        });
+      });
 
-          // Back to top button
-          let backToTopButton = document.createElement('button');
-          backToTopButton.innerText = '↑';
-          backToTopButton.id = 'backToTop';
-          document.body.appendChild(backToTopButton);
+      // Back to top button
+      let backToTopButton = document.createElement('button');
+      backToTopButton.innerText = '↑';
+      backToTopButton.id = 'backToTop';
+      document.body.appendChild(backToTopButton);
 
-          window.onscroll = function () {
-            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-              backToTopButton.style.display = "block";
-            } else {
-              backToTopButton.style.display = "none";
-            }
-          };
+      window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      };
 
-          backToTopButton.addEventListener('click', function () {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-          });
+      backToTopButton.addEventListener('click', function () {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      });
 
-          // Email encryption and display
-          document.addEventListener('DOMContentLoaded', function () {
-            const emailContainer = document.getElementById('email-container');
+      // Email encryption and display
+      document.addEventListener('DOMContentLoaded', function () {
+        const emailContainer = document.getElementById('email-container');
 
-            // Simple encryption function (ROT13-like but custom)
-            function encryptEmail(email) {
-              // Using a simple character code shift for basic obfuscation
-              return btoa(email); // Base64 encoding
-            }
+        // Simple encryption function (ROT13-like but custom)
+        function encryptEmail(email) {
+          // Using a simple character code shift for basic obfuscation
+          return btoa(email); // Base64 encoding
+        }
 
-            // Decrypt function
-            function decryptEmail(encryptedEmail) {
-              try {
-                return atob(encryptedEmail); // Base64 decoding
-              } catch (e) {
-                return "Error decrypting email";
-              }
-            }
-
-            // Store the encrypted email
-            const email = "xiao.ma@bytedance.com";
-            const encryptedEmail = encryptEmail(email);
-
-            // Store encrypted email in the element's data attribute
-            emailContainer.setAttribute('data-email', encryptedEmail);
-
-            // Show encrypted placeholder text
-            emailContainer.textContent = "Click to show email";
-
-            // Make it look like a link
-            emailContainer.style.cursor = "pointer";
-            emailContainer.style.color = "var(--secondary-color)";
-            emailContainer.style.textDecoration = "underline";
-          });
-
-          // Function to show email when clicked
-          function showEmail() {
-            const emailContainer = document.getElementById('email-container');
-            const encryptedEmail = emailContainer.getAttribute('data-email');
-            const decryptedEmail = atob(encryptedEmail);
-
-            // Create mailto link
-            const mailtoLink = document.createElement('a');
-            mailtoLink.href = `mailto:${decryptedEmail}`;
-            mailtoLink.textContent = decryptedEmail;
-            mailtoLink.style.color = "var(--secondary-color)";
-            mailtoLink.style.textDecoration = "none";
-
-            // Replace the container content with the mailto link
-            emailContainer.innerHTML = '';
-            emailContainer.appendChild(mailtoLink);
-            emailContainer.onclick = null; // Remove click handler
-            emailContainer.style.cursor = "default";
-            emailContainer.style.textDecoration = "none";
+        // Decrypt function
+        function decryptEmail(encryptedEmail) {
+          try {
+            return atob(encryptedEmail); // Base64 decoding
+          } catch (e) {
+            return "Error decrypting email";
           }
-        </script>
+        }
+
+        // Store the encrypted email
+        const email = "xiao.ma@bytedance.com";
+        const encryptedEmail = encryptEmail(email);
+
+        // Store encrypted email in the element's data attribute
+        emailContainer.setAttribute('data-email', encryptedEmail);
+
+        // Show encrypted placeholder text
+        emailContainer.textContent = "Click to show email";
+
+        // Make it look like a link
+        emailContainer.style.cursor = "pointer";
+        emailContainer.style.color = "var(--secondary-color)";
+        emailContainer.style.textDecoration = "underline";
+      });
+
+      // Function to show email when clicked
+      function showEmail() {
+        const emailContainer = document.getElementById('email-container');
+        const encryptedEmail = emailContainer.getAttribute('data-email');
+        const decryptedEmail = atob(encryptedEmail);
+
+        // Create mailto link
+        const mailtoLink = document.createElement('a');
+        mailtoLink.href = `mailto:${decryptedEmail}`;
+        mailtoLink.textContent = decryptedEmail;
+        mailtoLink.style.color = "var(--secondary-color)";
+        mailtoLink.style.textDecoration = "none";
+
+        // Replace the container content with the mailto link
+        emailContainer.innerHTML = '';
+        emailContainer.appendChild(mailtoLink);
+        emailContainer.onclick = null; // Remove click handler
+        emailContainer.style.cursor = "default";
+        emailContainer.style.textDecoration = "none";
+      }
+    </script>
 </body>
 
 </html>
