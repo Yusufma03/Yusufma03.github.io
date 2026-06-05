@@ -1,21 +1,21 @@
 const newsData = [
   {
-    "date": "May. 2025",
+    "date": "May. 2026",
     "content": "2 paper accepted to ICML 2026.",
     "isMore": false
   },
   {
-    "date": "Feb. 2025",
+    "date": "Feb. 2026",
     "content": "1 paper accepted to ICRA 2026.",
     "isMore": false
   },
   {
-    "date": "Jan. 2025",
+    "date": "Jan. 2026",
     "content": "1 paper accepted to ICLR 2026.",
     "isMore": false
   },
   {
-    "date": "Jan. 2025",
+    "date": "Jan. 2026",
     "content": "We have released <span style=\"font-weight: bold; color: rgb(7, 92, 172);\">Seed GR-Dexter</span>, the first VLA model our 21 DoF dexterous hand.",
     "isMore": false
   },
